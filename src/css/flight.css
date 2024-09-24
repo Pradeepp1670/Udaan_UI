@@ -1,0 +1,87 @@
+/* styles.css */
+/* src/App.css */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 0 0 0;
+  }
+  
+  .box {
+    background-color: white;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+.card {
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 50px 50px;
+    transition: transform 0.2s;
+    place-items: center;
+    justify-items: center;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 50px ;
+    height: 50px;
+    margin: 0 auto
+}
+
+.card-content {
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-description {
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+.card-context {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+    margin: 0;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
